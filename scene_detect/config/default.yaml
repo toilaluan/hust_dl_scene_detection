@@ -7,6 +7,11 @@ model:
   model_name: 'eva02_large_patch14_224.mim_in22k'
   pretrained: True
   num_classes: 10
+  lora_cfg:
+    r: 64
+    alpha: 32
+    dropout: 0.1
+    target_modules: '.*\.qkv|.*\.fc\d|.*\.proj|proj|stem_0'
 optimizer:
   lr: 0.0005
 
