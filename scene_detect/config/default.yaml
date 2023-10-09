@@ -1,0 +1,13 @@
+data:
+  image_root: "dataset"
+  train_annotation_file: "dataset/train_label.xlsx"
+  test_annotation_file: "dataset/test_label.xlsx"
+  img_size: (224, 224)
+model:
+  model_name: 'eva02_large_patch14_224.mim_in22k'
+  pretrained: True
+  num_classes: 10
+optimizer:
+  lr: 0.0005
+
+  

@@ -1,0 +1,5 @@
+*.jpg
+tensorboard_logs
+*.zip
+*.pyc
+*.xlsx
