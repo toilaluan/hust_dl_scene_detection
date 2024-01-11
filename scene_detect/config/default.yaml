@@ -4,7 +4,7 @@ data:
   test_annotation_file: "dataset/test_label.xlsx"
   img_size: (224, 224)
 model:
-  model_name: 'eva02_large_patch14_224.mim_in22k'
+  model_name: 'vit_large_patch14_clip_224.openai'
   pretrained: True
   num_classes: 10
   lora_cfg:
